@@ -1,3 +1,4 @@
+
 import './index.css'
 import MoviesSlider from '../MoviesSlider'
 
@@ -14,7 +15,9 @@ const PrimeVideo = props => {
         className="prime-video-banner"
       />
       <div className="movies-section">
+        <h1 className="movies-heading">Action Movies</h1>
         <MoviesSlider moviesList={actionMovies} category="Action Movies" />
+        <h1 className="movies-heading">Comedy Movies</h1>
         <MoviesSlider moviesList={comedyMovies} category="Comedy Movies" />
       </div>
     </div>
