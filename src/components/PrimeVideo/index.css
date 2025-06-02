@@ -12,4 +12,9 @@
 .movies-section {
   padding: 20px;
   background-color: #231f20;
+  padding: 20px;
+}
+
+.movies-heading {
+  color: white;
 }
